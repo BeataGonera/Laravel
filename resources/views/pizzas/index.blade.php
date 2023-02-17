@@ -15,7 +15,6 @@
     <p>{{session('message')}}</p>
 
 
-
 </div>
 @endsection
 
