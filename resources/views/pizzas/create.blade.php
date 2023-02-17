@@ -1,26 +1,6 @@
 @extends('layouts.layout')
 
 @section('content')
-<!-- <div>
-    <p>Create a new pizza</p>
-    <form action='/pizzas' method='POST'> 
-        @csrf
-        <label class="text-3xl" for='type'>Type of pizza:</label>
-        <input id='type' name='type' required type='text'/>
-
-        <label for='base'>Base:</label>
-        <input id='base' name='base' required type='text'/>
-
-        <label for='name'>Order for:</label>
-        <input id='name' name='name' required type='text'/>
-
-        <label for='price'>Price:</label>
-        <input id='price' name='price' required type='text'/>
-
-        <button type='submit'>Submit</button>
-    </form>
-</div> -->
-
 
 <form class="w-[80vw]" action='/pizzas' method='POST'>
     @csrf
